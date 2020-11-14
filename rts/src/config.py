@@ -433,7 +433,7 @@ class Configuration:
         def create_players(self,
                            game):
 
-            return self._create_player(game, self.player1_type, self.player1_config, self.player1_onehot_encoder, self.player1_model_file), self._create_player(game, self.player1_type, self.player1_config, self.player2_onehot_encoder, self.player2_model_file)
+            return self._create_player(game, self.player1_type, self.player1_config, self.player1_onehot_encoder, self.player1_model_file), self._create_player(game, self.player2_type, self.player2_config, self.player2_onehot_encoder, self.player2_model_file)
 
         def _create_player(self,
                            game,
