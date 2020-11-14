@@ -1,24 +1,6 @@
 *.pyc
 .DS_Store
 
-/temp/*
-!/temp/.gitkeep
-
+/temp/
 /.project
 /.pydevproject
-
-\.idea/
-
-td2020/stats/actionExecuted/
-
-td2020/stats/gameEndTurn/
-
-td2020/stats/sum/
-
-td2020/stats/unitKilledBy/
-
-Py37_new/
-
-td2020/models/logsTD2020NNet/
-
-td2020/models/TD2020NNet_model_plot\.png
